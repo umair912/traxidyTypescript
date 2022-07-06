@@ -9,7 +9,6 @@ describe('Traxidy Test Cases', () => {
     traxidyPage.visit();
   })
     it('should login', () => {
-      //@ts-ignore
       cy.Login()
     })
 
